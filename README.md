@@ -10,7 +10,7 @@ python ./generate_abastract_images.py
 ```
 Some interesting images generated are displayed as below.
 
-### Generated Color Images New
+### Generated Color Images 
 
 <img src="color_images_outcome/saved_img_seed40.jpg" alt="seed 40" width="240" height="240"> <img src="color_images_outcome/saved_img_seed41.jpg" alt="seed 41" width="240" height="240">  <img src="color_images_outcome/saved_img_seed37.jpg" alt="seed 37" width="240" height="240">  
 <img src="color_images_outcome/saved_img_seed23.jpg" alt="seed 23" width="240" height="240"> <img src="color_images_outcome/saved_img_seed139.jpg" alt="seed 139" width="240" height="240">  <img src="color_images_outcome/saved_img_seed35.jpg" alt="seed 35" width="240" height="240">     
@@ -30,7 +30,7 @@ Some interesting images generated are displayed as below.
 
 Looks not bad, euh?    
 
-**NOTE:  Above are just picked from those 200 images generated with random seed from 0 to 199. To try more different random seeds will surely get many more interesting and appealing images. **    
+** NOTE:  Above are just picked from those 200 images generated with random seed from 0 to 199. To try more different random seeds will surely get many more interesting and appealing images.  **    
 
 [Reference1] code adapted from https://www.reedbeta.com/blog/generating-abstract-images-with-random-functions/     
 [Reference2] https://gamedev.stackexchange.com/questions/32274/how-can-i-create-beautiful-random-abstract-images
