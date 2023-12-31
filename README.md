@@ -24,12 +24,11 @@ Some interesting images generated are displayed as below.
 | <img src="grayscale_images_outcome/saved_img_seed49.jpg" alt="seed 49" width="240" height="240"> | <img src="grayscale_images_outcome/saved_img_seed55.jpg" alt="seed 55" width="240" height="240"> | <img src="grayscale_images_outcome/saved_img_seed51.jpg" alt="seed 51" width="240" height="240"> | <img src="grayscale_images_outcome/saved_img_seed57.jpg" alt="seed 57" width="240" height="240"> |
 | <img src="grayscale_images_outcome/saved_img_seed190.jpg" alt="seed 190" width="240" height="240"> | <img src="grayscale_images_outcome/saved_img_seed158.jpg" alt="seed 158" width="240" height="240"> | <img src="grayscale_images_outcome/saved_img_seed71.jpg" alt="seed 71" width="240" height="240"> | <img src="grayscale_images_outcome/saved_img_seed90.jpg" alt="seed 90" width="240" height="240"> |
 
-Looks not bad, Euh?
-
+Looks not bad, euh?    
 
 **NOTE: Above are just picked from those 200 images generated with random seed from 0 to 199. To try more different random seeds will surely get many more interesting and appealing images.**
 
-[Reference1] code adapted from https://www.reedbeta.com/blog/generating-abstract-images-with-random-functions/
+[Reference1] code adapted from https://www.reedbeta.com/blog/generating-abstract-images-with-random-functions/     
 [Reference2] https://gamedev.stackexchange.com/questions/32274/how-can-i-create-beautiful-random-abstract-images
 
 

@@ -106,7 +106,7 @@ def generate_abstract_img(x_dim=256, y_dim=256, channel_num=3, seed=None):
         img = np.round(img.clip(0.0, 1.0) * 255.0).astype('uint8')
         # if the pixel values in a very small range, not an interesting image,
         # loop to generate another one
-        if (img.max() - img.min()) >= 8:  
+        if (img.max() - img.min()) >= 15:  
             break
             
     if channel_num == 1:
@@ -119,20 +119,20 @@ def generate_abstract_img(x_dim=256, y_dim=256, channel_num=3, seed=None):
 if __name__ == '__main__':
     generate_num = 200
 
-    images_output_dir = './color_images_outcome_new/'
+    images_output_dir = './color_images_outcome/'
     if not os.path.exists(images_output_dir):
         os.makedirs(images_output_dir)
         
-    for seed in range(200, 500):
+    for seed in range(generate_num):
         img = generate_abstract_img(channel_num=3, seed=seed)
         save_image(img, save_file_name=f'{images_output_dir}/saved_img_seed{seed}.jpg')
         print(f'color image with seed {seed} generated !!!')
 
-    images_output_dir = './grayscale_images_outcome_new/'
+    images_output_dir = './grayscale_images_outcome/'
     if not os.path.exists(images_output_dir):
         os.makedirs(images_output_dir)
         
-    for seed in range(200, 500):
+    for seed in range(generate_num):
         img = generate_abstract_img(channel_num=1, seed=seed)
         save_image(img, save_file_name=f'{images_output_dir}/saved_img_seed{seed}.jpg')
         print(f'grayscale image with seed {seed} generated !!!')
