@@ -30,7 +30,7 @@ Some interesting images generated are displayed as below.
 
 Looks not bad, euh?    
 
-** NOTE:  Above are just picked from those 200 images generated with random seed from 0 to 199. To try more different random seeds will surely get many more interesting and appealing images.  **    
+**NOTE:  Above are just picked from those 200 images generated with random seed from 0 to 199. To try more different random seeds will surely get many more interesting and appealing images.**    
 
 [Reference1] code adapted from https://www.reedbeta.com/blog/generating-abstract-images-with-random-functions/     
 [Reference2] https://gamedev.stackexchange.com/questions/32274/how-can-i-create-beautiful-random-abstract-images
