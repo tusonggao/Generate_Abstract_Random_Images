@@ -98,9 +98,9 @@ def generate_abstract_img(x_dim=256, y_dim=256, channel_num=3, seed=None):
     yArray = np.repeat(yArray, dX, axis=1)
     assert xArray.shape == yArray.shape == (dX, dY, NC)
     
-    generate_cnt = 0
+    try_cnt = 0
     while True:
-        generate_cnt += 1
+        try_cnt += 1
         img = buildImg(depth=0)
         img = sigmoid(img)
         img = np.round(img.clip(0.0, 1.0) * 255.0).astype('uint8')
@@ -112,29 +112,29 @@ def generate_abstract_img(x_dim=256, y_dim=256, channel_num=3, seed=None):
     if channel_num == 1:
         img = img.squeeze(-1)  # squeeze the last axis of grayscale image
     print(f'in generate_abstract_img() img.shape: {img.shape}, img.min: {img.min()}, img.max: {img.max()} '
-          f'generate_cnt: {generate_cnt} cost time: {time.time()-start_t:.5f} sec')
+          f'try_cnt: {try_cnt} cost time: {time.time()-start_t:.5f} sec')
     return img
 
 
 if __name__ == '__main__':
-    generate_num = 100
+    generate_num = 200
 
-    images_output_dir = './color_images_outcome/'
+    images_output_dir = './color_images_outcome_new/'
     if not os.path.exists(images_output_dir):
         os.makedirs(images_output_dir)
         
-    for seed in range(generate_num):
+    for seed in range(200, 500):
         img = generate_abstract_img(channel_num=3, seed=seed)
-        save_image(img, save_file_name=f'{images_output_dir}/saved_img_{seed}.jpg')
+        save_image(img, save_file_name=f'{images_output_dir}/saved_img_seed{seed}.jpg')
         print(f'color image with seed {seed} generated !!!')
 
-    images_output_dir = './grayscale_images_outcome/'
+    images_output_dir = './grayscale_images_outcome_new/'
     if not os.path.exists(images_output_dir):
         os.makedirs(images_output_dir)
         
-    for seed in range(generate_num):
+    for seed in range(200, 500):
         img = generate_abstract_img(channel_num=1, seed=seed)
-        save_image(img, save_file_name=f'{images_output_dir}/saved_img_{seed}.jpg')
+        save_image(img, save_file_name=f'{images_output_dir}/saved_img_seed{seed}.jpg')
         print(f'grayscale image with seed {seed} generated !!!')
 
 
