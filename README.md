@@ -10,6 +10,15 @@ python ./generate_abastract_images.py
 ```
 Some interesting images generated are displayed as below.
 
+### Generated Color Images New
+
+| <img src="color_images_outcome/saved_img_seed40.jpg" alt="seed 40" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed41.jpg" alt="seed 41" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed37.jpg" alt="seed 37" width="240" height="240"> | 
+| <img src="color_images_outcome/saved_img_seed23.jpg" alt="seed 23" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed139.jpg" alt="seed 139" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed35.jpg" alt="seed 35" width="240" height="240"> | 
+| <img src="color_images_outcome/saved_img_seed6.jpg" alt="seed 6" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed15.jpg" alt="seed 15" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed146.jpg" alt="seed 146" width="240" height="240"> | 
+| <img src="color_images_outcome/saved_img_seed97.jpg" alt="seed 97" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed101.jpg" alt="seed 101" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed107.jpg" alt="seed 107" width="240" height="240"> |
+| <img src="color_images_outcome/saved_img_seed0.jpg" alt="seed 0" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed77.jpg" alt="seed 77" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed133.jpg" alt="seed 133" width="240" height="240"> | 
+| <img src="color_images_outcome/saved_img_seed128.jpg" alt="seed 128" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed97.jpg" alt="seed 97" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed101.jpg" alt="seed 101" width="240" height="240"> |
+
 ### Generated Color Images
 
 | <img src="color_images_outcome/saved_img_seed40.jpg" alt="seed 40" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed41.jpg" alt="seed 41" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed37.jpg" alt="seed 37" width="240" height="240"> | <img src="color_images_outcome/saved_img_seed23.jpg" alt="seed 23" width="240" height="240"> |
