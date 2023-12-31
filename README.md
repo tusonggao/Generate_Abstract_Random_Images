@@ -6,7 +6,7 @@ This repo shows a way to generate interesting abstract random images in python.
 
 Run the following command line, then you will get 200 color images under ```./color_images_outcome/``` and 200 grayscale images under ```./grayscale_images_outcome/```:
 ```
-python ./generate_abastract_images.py
+python ./generate_abstract_images.py
 ```
 Some interesting images generated are displayed as below.
 
