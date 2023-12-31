@@ -84,6 +84,7 @@ def buildImg(depth=0):
 # if you want grayscale image, set channel_num=1
 def generate_abstract_img(x_dim=256, y_dim=256, channel_num=3, seed=None):
     global xArray, yArray, dX, dY, NC 
+    assert channel_num in (1, 3)
     dX, dY, NC = x_dim, y_dim, channel_num
     
     if seed is not None:
